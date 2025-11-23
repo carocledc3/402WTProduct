@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+
+:root {
+  font-family: system-ui;
+  color: #363a4f;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 200px;
+}
+
+#header-img {
+  height: 100%;
+  float: left;
+}
+
+#namecont { 
+  display: block;
+}
+
+big {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+html {
+  background: linear-gradient(white, #f9c5d4);
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background: linear-gradient(to right, #f38ba8, #74c7ec);
+  box-shadow: 0px 10px 10px #363a4f40;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  padding: 0.5em 0.5em;
+  left: 0px;
+  top: 0px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    margin-left: auto;
+    padding-right: 1em;
+  }
+}
+
+form {
+  text-align: center;
+}
+
+main {
+  margin: 1em 1em;
+}
