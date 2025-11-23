@@ -59,3 +59,13 @@ form {
 main {
   margin: 1em 1em;
 }
+
+a.nav-link {
+  text-decoration: none;
+  color: #363a4f;
+}
+
+a.nav-link:hover {
+  text-decoration: none;
+  color: #363a4f;
+}
